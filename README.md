@@ -15,7 +15,7 @@ There are three different parts to this app. The first is for the customer. It b
 
 ## Demonstration Video
 
-Link to Video: https://drive.google.com/file/d/1jS2IVLsA60qvgeAJhZfA1GOUyHesHkAZ/view
+Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view
 
 ## Technologies
 
@@ -26,5 +26,5 @@ Link to Video: https://drive.google.com/file/d/1jS2IVLsA60qvgeAJhZfA1GOUyHesHkAZ
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU1OTk0XX0=
+eyJoaXN0b3J5IjpbMTQwOTg3OTUyOSwtMTc4NTU5OTRdfQ==
 -->
