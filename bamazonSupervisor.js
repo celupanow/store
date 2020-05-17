@@ -39,10 +39,8 @@ inquirer
 function printItems() {
     connection.connect(function (err) {
         if (err) throw err;
-        connection.query("SELECT departments.department_id, departments.department_name AS dept, departments.over_head_costs, products.product_sales FROM departments INNER JOIN products ON departments.department_name = products.department_name", function (err, res) {
+        connection.query("SELECT departments.department_id, departments.department_name, departments.over_head_costs, SUM(products.product_sales) AS total FROM departments INNER JOIN products ON departments.department_name = products.department_name GROUP BY departments.department_id, departments.department_name", function (err, res) {
             if (err) throw err;
-
-            console.log(res);
 
            var data = [
                 ['department_id', 'department_name', 'over_head_costs', 'product_sales', 'total_profit'],
@@ -51,7 +49,7 @@ function printItems() {
             var output;
 
             for (var i = 0; i < res.length; i++) {
-                data.push([res[i].department_id, res[i].dept, res[i].over_head_costs, res[i].product_sales, res[i].product_sales - res[i].over_head_costs]);
+                data.push([res[i].department_id, res[i].department_name, res[i].over_head_costs, res[i].total, res[i].total - res[i].over_head_costs]);
             }
 
             output = table(data);
@@ -87,7 +85,7 @@ function newDept() {
             }
         ]).then(function (inquirerResponse) {
             //creating the new record
-            connection.query("INSERT INTO products SET ?",
+            connection.query("INSERT INTO departments SET ?",
                 [
                     {
                         department_id: inquirerResponse.addId,

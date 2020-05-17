@@ -51,8 +51,6 @@ function placeOrder() {
             connection.query("SELECT stock_quantity FROM products WHERE item_id = ?", [inquirerResponse.productId],
                 function (err, res) {
                     if (err) throw err;
-                    console.log(res[0].stock_quantity);
-                    console.log(res[0].stock_quantity - inquirerResponse.orderQuantity);
                     //creating a new variable holds the result of the user's desired quantity subtracted from the current quantity
                     var comparison = res[0].stock_quantity - inquirerResponse.orderQuantity;
                     //if the comparison is less than or equal to zero
@@ -76,28 +74,29 @@ function placeOrder() {
                                 console.log("Order placed!");
                             });
                         //show the customer their total
-                        connection.query("SELECT price FROM products WHERE item_id = ?", [inquirerResponse.productId],
+                        connection.query("SELECT price, product_sales FROM products WHERE item_id = ?", [inquirerResponse.productId],
                             function (err, res) {
                                 if (err) throw err;
                                 console.log("Your total is: $" + res[0].price * inquirerResponse.orderQuantity + ".00");
-                            })
-                        //update the product_sales column
-                        connection.query("UPDATE products SET ? WHERE ?",
-                        [
-                            {
-                                product_sales: res[0].price * inquirerResponse.orderQuantity
-                            }
-                        ],
-                        function (err, res) {
-                            if (err) throw err;
-                        });
-
+                                //update the product_sales column
+                                connection.query("UPDATE products SET ? WHERE ?",
+                                    [
+                                        {
+                                            product_sales: (parseFloat(inquirerResponse.orderQuantity) + parseFloat(res[0].product_sales)) * parseFloat(res[0].price)
+                                        },
+                                        {
+                                            item_id: inquirerResponse.productId
+                                        }
+                                    ],
+                                    function (err, res) {
+                                        if (err) throw err;
+                                    });
+                                //disconnect
+                                connection.end();
+                            });
                     }
                 })
-                //disconnect
-            connection.end();
         });
-
 }
 
 
