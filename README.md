@@ -7,12 +7,11 @@ No working link because there is no actual HTML or interactive DOM.
 
  - Use MySQL to create a database containing information about the products for sale.
  - Use Node to allow a customer to place an order.
- - Use Node to allow a manager to add products 
- - Use a separate js file for the keys needed to call the Spotify API.
- - Use a txt file for a command that reads the txt file and follows whatever command and search term is in the txt file.
+ - Use Node to allow a manager to add products or check inventory.
+ - Use Node to allow a supervisor to check department sales data.
  
 ## How It Works
-The user must put two items into the command line. The first one is a command. The user can put in "concert-this", which will search the Bands In Town API for venue name, venue location, and time for the next concert of whatever musical artist is searched. They can put in "spotify-this-song", which will search the Spotify API for the artist, song name, spotify link, and the album name. They can use "movie-this", which will search the OMDB API for the title, year, ratings, country, language, plot, and actors. The last command is "do-what-it-says", which reads the random.txt file and follows the command and search term to run one of the above commands. 
+There are three different parts to this app. The first is for the customer. It begins by displaying all the products available. The customer must then enter the id of the item they want and how much of that item they want. The app then determines if there is enough stock to fill the order. If not, it alerts the customer. If it does, it places the order, changing the database to reflect t
 
 ## Demonstration Video
 
@@ -30,5 +29,5 @@ Link to Video: https://drive.google.com/file/d/1jS2IVLsA60qvgeAJhZfA1GOUyHesHkAZ
  - fs
  - node-spotify-api
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NTY4NTA3XX0=
+eyJoaXN0b3J5IjpbNzk2ODczNDQzXX0=
 -->
