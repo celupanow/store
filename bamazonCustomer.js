@@ -81,6 +81,16 @@ function placeOrder() {
                                 if (err) throw err;
                                 console.log("Your total is: $" + res[0].price * inquirerResponse.orderQuantity + ".00");
                             })
+                        //update the product_sales column
+                        connection.query("UPDATE products SET ? WHERE ?",
+                        [
+                            {
+                                product_sales: res[0].price * inquirerResponse.orderQuantity
+                            }
+                        ],
+                        function (err, res) {
+                            if (err) throw err;
+                        });
 
                     }
                 })

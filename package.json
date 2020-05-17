@@ -18,6 +18,7 @@
   "homepage": "https://github.com/celupanow/store#readme",
   "dependencies": {
     "inquirer": "^7.1.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "table": "^5.4.6"
   }
 }
