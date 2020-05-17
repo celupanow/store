@@ -11,7 +11,7 @@ No working link because there is no actual HTML or interactive DOM.
  - Use Node to allow a supervisor to check department sales data.
  
 ## How It Works
-There are three different parts to this app. The first is for the customer. It begins by displaying all the products available. The customer must then enter the id of the item they want and how much of that item they want. The app then determines if there is enough stock to fill the order. If not, it alerts the customer. If it does, it places the order, changing the database to reflect t
+There are three different parts to this app. The first is for the customer. It begins by displaying all the products available. The customer must then enter the id of the item they want and how much of that item they want. The app then determines if there is enough stock to fill the order. If not, it alerts the customer. If it does, it places the order, changing the database to reflect this, and displays the customer's total price. The second is for the manager. It starts by displaying a menu of options. The manager can choose to display all of the products currently available. They can choose to display all
 
 ## Demonstration Video
 
@@ -29,5 +29,5 @@ Link to Video: https://drive.google.com/file/d/1jS2IVLsA60qvgeAJhZfA1GOUyHesHkAZ
  - fs
  - node-spotify-api
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2ODczNDQzXX0=
+eyJoaXN0b3J5IjpbMTAwODM3OTg3MF19
 -->
