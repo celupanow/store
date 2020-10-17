@@ -57,6 +57,8 @@ You will need to have the lastest version of npm installed.
 npm install npm@latest -g
 ```
 You will also need MySQL installed for this particular application.
+You can dowloand it here: https://dev.mysql.com/downloads/installer/
+I also use WAMP (MAMP for Mac users) and MySQL Workbench. You will need a server of some kind, but Workbench is optional. 
   
 ### Installation
 
@@ -154,6 +156,6 @@ Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjYzMDE1MCwxNDA5ODc5NTI5LC0xNz
-g1NTk5NF19
+eyJoaXN0b3J5IjpbLTE2ODQxNTAyMzEsMTU2MjYzMDE1MCwxND
+A5ODc5NTI5LC0xNzg1NTk5NF19
 -->
