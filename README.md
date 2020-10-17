@@ -35,11 +35,12 @@ This is a node app that uses the Command Line to navigate a database with produc
 
 ## About The Project
 To watch the demonstration video, please click the following link:
-[https://drive.google.com/file/d/1hwAIlh1Q5c0y5c-ECf5cDcTccWEMtzMA/view](https://drive.google.com/file/d/1hwAIlh1Q5c0y5c-ECf5cDcTccWEMtzMA/view)
+[https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view](https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view)
 
 ### Built With
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org)
+* [MySQL](https://www.mysql.com/)
 * [inquirer](https://www.npmjs.com/package/inquirer)
 
 <!-- GETTING STARTED -->
@@ -55,6 +56,7 @@ You will need to have the lastest version of npm installed.
 ```sh
 npm install npm@latest -g
 ```
+You will also need MySQL
   
 ### Installation
 
@@ -152,6 +154,6 @@ Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODc2MTM0NywxNDA5ODc5NTI5LC0xNz
-g1NTk5NF19
+eyJoaXN0b3J5IjpbLTE5Mjc3Mzc4NzgsMTQwOTg3OTUyOSwtMT
+c4NTU5OTRdfQ==
 -->
