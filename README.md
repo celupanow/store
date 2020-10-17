@@ -56,7 +56,7 @@ You will need to have the lastest version of npm installed.
 ```sh
 npm install npm@latest -g
 ```
-You will also need MySQL
+You will also need MySQL installed for this particular application.
   
 ### Installation
 
@@ -154,6 +154,6 @@ Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc3Mzc4NzgsMTQwOTg3OTUyOSwtMT
-c4NTU5OTRdfQ==
+eyJoaXN0b3J5IjpbMTU2MjYzMDE1MCwxNDA5ODc5NTI5LC0xNz
+g1NTk5NF19
 -->
