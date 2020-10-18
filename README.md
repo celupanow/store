@@ -71,10 +71,10 @@ git clone https://github.com/celupanow/store.git
 ```sh
 npm install
 ```
-3. Run the MySQL schema to r
-3. Run the application using the command line
+3. Run the MySQL schema to create the database
+4. Run the application using the command line
 ```sh
-node index.js
+node bamazonCustomer.js
 ```
 
 <!-- ROADMAP -->
@@ -155,7 +155,7 @@ Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5MDY2NDIwLC05NzQ4MTA2MTIsLTE2OD
-QxNTAyMzEsMTU2MjYzMDE1MCwxNDA5ODc5NTI5LC0xNzg1NTk5
-NF19
+eyJoaXN0b3J5IjpbMTUzNTM2NDU3NywtOTc0ODEwNjEyLC0xNj
+g0MTUwMjMxLDE1NjI2MzAxNTAsMTQwOTg3OTUyOSwtMTc4NTU5
+OTRdfQ==
 -->
