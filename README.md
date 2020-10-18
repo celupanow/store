@@ -56,7 +56,7 @@ You will need to have the lastest version of npm installed.
 ```sh
 npm install npm@latest -g
 ```
-You will also need MySQL installed and running.
+You will also need MySQL installed. There is a schema file included with the basic sample data you see in the demo video. If you are using MySQL Workbench, you should be able to run this script and create the database.
   
 ### Installation
 
@@ -71,6 +71,7 @@ git clone https://github.com/celupanow/store.git
 ```sh
 npm install
 ```
+3. Run the MySQL schema to r
 3. Run the application using the command line
 ```sh
 node index.js
@@ -154,6 +155,7 @@ Link to Video: https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud
  - inquirer npm package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDgxMDYxMiwtMTY4NDE1MDIzMSwxNT
-YyNjMwMTUwLDE0MDk4Nzk1MjksLTE3ODU1OTk0XX0=
+eyJoaXN0b3J5IjpbNzU5MDY2NDIwLC05NzQ4MTA2MTIsLTE2OD
+QxNTAyMzEsMTU2MjYzMDE1MCwxNDA5ODc5NTI5LC0xNzg1NTk5
+NF19
 -->
