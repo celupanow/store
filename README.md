@@ -91,7 +91,7 @@ See the [open issues](https://github.com/celupanow/store/issues) for a list of p
 
 ## Contact
 Christina Lupanow - christina@christinalupanow.com
-
+<p>
 Project Link: [https://celupanow.github.io/store/](https://celupanow.github.io/store/)
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -131,7 +131,7 @@ Project Link: [https://celupanow.github.io/store/](https://celupanow.github.io/s
 [product-screenshot]: images/screenshot.png
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODQ3Mjc1NSwtOTc0ODEwNjEyLC0xNj
+eyJoaXN0b3J5IjpbMTg2MTMxMjAzNywtOTc0ODEwNjEyLC0xNj
 g0MTUwMjMxLDE1NjI2MzAxNTAsMTQwOTg3OTUyOSwtMTc4NTU5
 OTRdfQ==
 -->
