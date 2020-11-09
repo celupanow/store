@@ -126,12 +126,12 @@ Project Link: [https://celupanow.github.io/store/](https://celupanow.github.io/s
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/celupanow
+[linkedin-url]: https://www.linkedin.com/in/christinalupanow
 
 [product-screenshot]: images/screenshot.png
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTMxMjAzNywtOTc0ODEwNjEyLC0xNj
-g0MTUwMjMxLDE1NjI2MzAxNTAsMTQwOTg3OTUyOSwtMTc4NTU5
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTE3NjA1Mjc2ODcsMTg2MTMxMjAzNywtOT
+c0ODEwNjEyLC0xNjg0MTUwMjMxLDE1NjI2MzAxNTAsMTQwOTg3
+OTUyOSwtMTc4NTU5OTRdfQ==
 -->
